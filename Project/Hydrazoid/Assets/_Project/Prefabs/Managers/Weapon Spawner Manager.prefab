@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1947094271875416484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1947094271875417691}
+  - component: {fileID: 1947094271875417690}
+  m_Layer: 0
+  m_Name: Weapon Spawner Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1947094271875417691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947094271875416484}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1947094271875417690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947094271875416484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bf6dcc6faf5654488e90d80d85d0b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _persistent: 0
+  _spawnRandomWeapons: 1
+  _pickupPrefab: {fileID: 708276031246322633, guid: 2dd4a95b84333e248b1686be87eacf5f, type: 3}
+  _weaponList:
+  - {fileID: 5998545126092943837, guid: 109c566ebe24731459fd5dcaabee8805, type: 3}
+  - {fileID: 7016824988551540948, guid: c02f40d1e0fb2534d90228a7386791de, type: 3}
+  - {fileID: 746797877086525389, guid: fc7dbf0c73d033249b75e5a3a6d36336, type: 3}
+  _availableAmountOfWeapons: 6
+  _availableWeaponEffects:
+  - {fileID: 11400000, guid: a69e245ab171ccd4097687cbb9370550, type: 2}
+  - {fileID: 11400000, guid: 788e27edb4ff7484da15c81fa4c799a4, type: 2}
+  _weaponEffectChangeEvent: {fileID: 11400000, guid: 3d0f9aa34c42073499bddaf008e077b7, type: 2}
+  _weaponDropEvent: {fileID: 11400000, guid: ab1c371f748a7e344b5e26de0cf85e11, type: 2}

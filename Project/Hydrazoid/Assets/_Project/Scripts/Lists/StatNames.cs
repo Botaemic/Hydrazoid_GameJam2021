@@ -1,0 +1,20 @@
+public enum StatNames
+{
+    Health,
+    Armor,
+    MovementSpeed,
+    AttackRangeMelee,
+    AttackRangeRanged,
+    Accuracy,
+    CritChance,
+    Damage,
+    DamageMelee,
+    DamageRanged,
+    VisionRangeStart,
+    VisionRangeEnd,
+    DodgeChance,
+    HealthRegenOverTime,
+    MaxAmmoCapacity,
+    AmmoPickupBonus,
+    CashGainModifier
+}
